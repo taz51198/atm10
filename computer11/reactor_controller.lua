@@ -3,7 +3,7 @@
 -- Extreme Reactors 2.4.28
 
 local REACTOR = peripheral.wrap("back")
-local MATRIX_COMPUTER = 9
+local MATRIX_COMPUTER = 12
 
 local TARGET_TEMP = 1300
 local GAIN = 0.03
@@ -60,7 +60,7 @@ term.clear()
 term.setCursorPos(1, 1)
 print("ATM10 Reactor Controller")
 print("Reactor computer: 11")
-print("Matrix computer: 9")
+print("Matrix computer: 12")
 print("Rods: " .. rodCount)
 print("Target: " .. TARGET_TEMP .. " C")
 print("Waiting for matrix control...")
